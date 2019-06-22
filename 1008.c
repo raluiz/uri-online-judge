@@ -12,7 +12,7 @@ int main() {
         //Print the employee's number.
 	printf("NUMBER = %d\n", n);
     
-        //Print the employee's salary (wh * aphw).
+        //Print SALARY = U$ <wh * aphw>.
 	printf("SALARY = U$ %.2lf\n", wh * aphw);
     
 	return 0;
