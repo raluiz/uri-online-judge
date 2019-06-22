@@ -14,7 +14,7 @@ int main() {
         //Read the employee's salary and the total value sold.
         scanf("%lf\n%lf", &s, &sold);
         
-        //Print the TOTAL = R$ s + sold * 15 / 100.
+        //Print the TOTAL = R$ <s + sold * 15 / 100>.
         printf("TOTAL = R$ %.2lf\n", s + sold * 15 / 100);
         
         return 0;
