@@ -9,7 +9,7 @@ int main() {
 	scanf("%lf %lf %lf", &a, &b, &c);
 	
 	//Print MEDIA = <(a * 2 + b * 3 + c * 5) / 10>.
-	//2, 3 and 5 are weights for each student grade.
+	//2, 3 and 5 are weights for each grade.
 	printf("MEDIA = %.1lf\n", (a*2 + b*3 + c*5)/10);
 	return 0;
 }
