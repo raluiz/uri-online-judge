@@ -6,7 +6,7 @@ int main() {
  	int c, u, cont = 0;
 	float v, t = 0;
 	
-        //This loop will be used to read the two input lines.
+        //This loop will be used to read two input lines.
         do {
                 //Read the values given.
 		scanf("%d %d %f", &c, &u, &v);
@@ -18,7 +18,7 @@ int main() {
 		cont++;
 	} while(cont < 2);
 	
-        //Print VALOR A PAGAR: R$ <value to pay with two digits after the point>.
+        //Print VALOR A PAGAR: R$ <value to pay with two digits after the decimal point>.
 	printf("VALOR A PAGAR: R$ %.2f\n", t);
 	
 	return 0;
