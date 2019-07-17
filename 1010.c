@@ -18,7 +18,8 @@ int main() {
 		cont++;
 	} while(cont < 2);
 	
-        //Print VALOR A PAGAR: R$ <value to pay with two digits after the decimal point>.
+        //Print VALOR A PAGAR: R$ <t>.
+	//.2 represents that only two digits will be shown after the decimal point.
 	printf("VALOR A PAGAR: R$ %.2f\n", t);
 	
 	return 0;
